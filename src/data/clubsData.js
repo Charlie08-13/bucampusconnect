@@ -4,8 +4,10 @@ import sportsImg from "../assets/clubs/sports.jpg";
 import roboticsImg from "../assets/clubs/robotics.jpg";
 import photographyImg from "../assets/clubs/photography.jpg";
 import environmentalImg from "../assets/clubs/environmental.jpg";
-import debateImg from "../assets/clubs/debate.jpg";
-import musicImg from "../assets/clubs/music.jpg";
+import academicCoordinator from "../assets/coordinators/priyanka.jpg";
+import culturalCoordinator from "../assets/coordinators/Anjita.jpg";
+import sportsCoordinator from "../assets/coordinators/Satyendra.jpg";
+
 
 import event1 from "../assets/events/event1.jpg";
 import event2 from "../assets/events/event2.jpg";
@@ -16,12 +18,12 @@ const clubs = [
   {
     id: "academic",
     name: "Academic Club",
-    image: codingImg,
+    image:codingImg,
     shortDesc: "Build, code, and innovate with fellow programmers.",
     about:
-      "Academic Club encourages students to learn programming, participate in hackathons, and build real-world projects.",
-    coordinator: "Prof. Ankit Sharma",
-    members: ["Amit Kumar", "Neha Singh", "Rohit Verma"],
+      "Academic Club encourages students to learn programming, participate in hackathons, and build real-world projects.Academic Club is a student-led community that promotes learning beyond the classroom. It encourages collaboration, skill development, and academic excellence through discussions, workshops, competitions, and knowledge-sharing activities.",
+    coordinator: "Prof.Priyanka Pande",
+    members: ["xyz", "abc", "abc"],
     gallery: [event1, event2, event3],
   },
   {
@@ -31,7 +33,7 @@ const clubs = [
     shortDesc: "Celebrate art, music, dance, and traditions.",
     about:
       "Cultural Club promotes cultural activities like dance, music, drama, and festivals.",
-    coordinator: "Dr. Pooja Mishra",
+    coordinator: "Dr.Anjita Shrivastav",
     members: ["Anjali", "Saurabh", "Kunal"],
     gallery: [event2, event3, event1],
   },
@@ -42,7 +44,7 @@ const clubs = [
     shortDesc: "Stay fit, compete, and win together.",
     about:
       "Sports Club organizes tournaments and encourages physical fitness and teamwork.",
-    coordinator: "Mr. Rakesh Yadav",
+    coordinator: "Er.Satyendra Updhayay",
     members: ["Rahul", "Vikas", "Deepak"],
     gallery: [event3, event1, event2],
   },
@@ -64,7 +66,7 @@ const clubs = [
     shortDesc: "Capture the world through the lens.",
     about:
       "Photography Club teaches photography, editing, and organizes campus photo walks and exhibitions.",
-    coordinator: "Prof. Priya Mehta",
+    coordinator: "Er.B.B.Niranjan",
     members: ["Anjali", "Rishi", "Meera"],
     gallery: [event2, event1, event3],
   },
@@ -78,28 +80,6 @@ const clubs = [
     coordinator: "Prof. Sunil Agarwal",
     members: ["Shreya", "Aman", "Rahul"],
     gallery: [event3, event2, event1],
-  },
-  {
-    id: "debate",
-    name: "Debate Club",
-    image: debateImg,
-    shortDesc: "Sharpen your public speaking and debating skills.",
-    about:
-      "Debate Club organizes debates, elocutions, and public speaking events for students.",
-    coordinator: "Prof. Deepak Sharma",
-    members: ["Nidhi", "Kunal", "Priya"],
-    gallery: [event1, event2, event3],
-  },
-  {
-    id: "music",
-    name: "Music Club",
-    image: musicImg,
-    shortDesc: "Sing, play instruments, and perform on campus.",
-    about:
-      "Music Club encourages students to learn and perform music, organize concerts and jam sessions.",
-    coordinator: "Prof. Anjali Gupta",
-    members: ["Rohan", "Simran", "Aditi"],
-    gallery: [event2, event3, event1],
   },
 ];
 
